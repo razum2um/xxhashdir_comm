@@ -1,5 +1,7 @@
 # xxhashdir_comm
 
+![](https://github.com/razum2um/xxhashdir_comm/workflows/rust/badge.svg)
+
 ## Problem
 
 - Sometimes you did a backup by "hey, let's just rsync it somewhere"
