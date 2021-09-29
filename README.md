@@ -1,6 +1,6 @@
 # xxhashdir_comm
 
-![](https://github.com/razum2um/xxhashdir_comm/workflows/rust/badge.svg)
+[![CI](https://github.com/razum2um/xxhashdir_comm/actions/workflows/rust.yml/badge.svg)](https://github.com/razum2um/xxhashdir_comm/actions/workflows/rust.yml)
 
 ## Problem
 
