@@ -27,11 +27,11 @@ scp remote:remote.xxhashdir remote.xxhashdir
 ```sh
 # 🚀 to get common files (sources are mostly different)
 # you likely want to know this to delete duplicates first, then copy rest
-xxhashdir --common local.xxhashdir remote.xxhashdir
+xxhashdir_comm --common local.xxhashdir remote.xxhashdir
 
 # 🚀 to get different files (sources are mostly equal)
 # you likely want to know this to merge uniq files from second into first, then delete the second at all
-xxhashdir --only-second local.xxhashdir remote.xxhashdir
+xxhashdir_comm --only-second local.xxhashdir remote.xxhashdir
 ```
 
 ## Why not _
