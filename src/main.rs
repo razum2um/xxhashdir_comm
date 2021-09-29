@@ -89,10 +89,8 @@ fn main() -> io::Result<()> {
                             println!("{:<21} {} {}", h, p1, p2);
                         }
                     }
-                } else {
-                    if only_second {
-                        println!("{:<21} {}", h, p2);
-                    }
+                } else if only_second {
+                    println!("{:<21} {}", h, p2);
                 }
             }
         });
