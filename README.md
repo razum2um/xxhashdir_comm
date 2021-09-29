@@ -36,10 +36,13 @@ xxhashdir --only-second local.xxhashdir remote.xxhashdir
 
 - `rsync` can delete files on reciever, but relies only on filenames and mtime
 - `fdupes` works only locally
-- `zfs snapshot` + `zfs diff` is perfect but also only local
+- `zfs snapshot` + `zfs diff` is perfect but also only local and requires to be a common dataset initially
 - incremental backups - you don't always bother to have
-- unix way, stdout can be reprocessed with sed/grep/whatever again
-- fun with rust
+## Why use it
+
+- stdout can be reprocessed with sed/grep/whatever again
+- unix way
+- having fun with rust
 
 ## Further plans
 
